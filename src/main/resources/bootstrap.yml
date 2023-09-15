@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: ${SPRING_CLOUD_CONFIGURATION_HOST:}
+      name: ${SPRING_CLOUD_CONFIGURATION_APPNAME:}
+      profile: ${SPRING_CLOUD_CONFIGURATION_PROFILE:}
+      username: ${SPRING_CLOUD_CONFIGURATION_USERNAME:}
+      password: ${SPRING_CLOUD_CONFIGURATION_PASSWORD:}
